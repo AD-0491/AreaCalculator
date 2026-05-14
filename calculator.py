@@ -1,20 +1,29 @@
 # Area Calculator
+import time 
 
-print("~~~~~~~~~~~~~~~~")
-print("Area Calculator")
-print("~~~~~~~~~~~~~~~~")
+time.sleep(0.2)
+print("~~~~~~~~~~~~~~~~~~~")
+print("| Area Calculator |")
+print("~~~~~~~~~~~~~~~~~~~")
 
+time.sleep(1)
 print("1. Triangle")
+time.sleep(1)
 print("2. Rectangle")
+time.sleep(1)
 print("3. Square")
+time.sleep(1)
 print("4. Circle")
+time.sleep(1)
 print("5. Quit")
-print('\n')
+time.sleep(1)
+print()
 
-user_input = int(input("Which shape: "))
-
+user_input = int(input("Pick a shape: "))
+print()
 base = int(input("Base: "))
 height = int(input("Height: "))
+print()
 
 triangle_area = (height * base) / 2
 rectangle_area = height * base
