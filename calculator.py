@@ -3,7 +3,7 @@
 print("~~~~~~~~~~~~~~~~")
 print("Area Calculator")
 print("~~~~~~~~~~~~~~~~")
-print('\n')
+
 print("1. Triangle")
 print("2. Rectangle")
 print("3. Square")
@@ -31,4 +31,5 @@ elif user_input == 4:
     print(f"Area of Circle: {circle_area}")
 elif user_input == 5:
     print("Goodbye!")
-else:    print("Invalid input. Please select a number between 1 and 5.")
+else:    
+    print("Invalid input. Please select a number between 1 and 5.")
